@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Absensi Siswa</title>
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+</head>
+<body>
+
+  <h2>Absensi Siswa</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>No</th>
+        <th>Nama Siswa</th>
+        <th>Tanggal</th>
+        <th>Keterangan</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Budi</td>
+        <td>2024-08-10</td>
+        <td>Hadir</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Ani</td>
+        <td>2024-08-10</td>
+        <td>Sakit</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Charlie</td>
+        <td>2024-08-10</td>
+        <td>Izin</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
